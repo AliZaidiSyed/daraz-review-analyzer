@@ -91,8 +91,7 @@ So, the system understands which opinion belongs to which product feature.
 | Custom Naive Bayes | Model comparison |
 | Custom FFNN | Neural model comparison |
 | Custom LSTM | Sequential model comparison |
-| GitHub | Code hosting |
-| Streamlit Cloud | Deployment |
+
 
 
 
@@ -274,45 +273,13 @@ packing achi thi lekin charger kaam nahi kar raha
 
 ---
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/AliZaidiSyed/daraz-review-analyzer.git
-```
-
-Open the project folder:
-
-```bash
-cd daraz-review-analyzer
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Install requirements:
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## Run the Streamlit App
 
 Use this command:
 
 ```bash
+python -u main.py
 streamlit run app.py
 ```
 
@@ -326,52 +293,9 @@ http://localhost:8501
 
 ---
 
-## Run Other Files
-
-Run console version:
-
-```bash
-python main.py
-```
-
-Run debug version:
-
-```bash
-python main_debug.py
-```
-
-Run POS/NER test:
-
-```bash
-python -m src.test_pos
-```
-
----
 
 
 
-
-## Requirements
-
-The main requirement is:
-
-```text
-streamlit>=1.30.0
-```
-
-The project also uses standard Python libraries such as:
-
-- csv
-- re
-- math
-- random
-- collections
-- difflib
-- os
-- tkinter
-- threading
-
----
 
 
 
